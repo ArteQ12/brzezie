@@ -45,15 +45,14 @@ h1
 	float: left;
 	background-color: white;
 	width: 68%;
-	min-height: 500px;
-	max-height: 100px;
+	height: 1500px;
 	margin: 3%;
 	padding: 15px;
 	font-size: 25px;
 	border-radius: 15px;
 	text-align: justify;
 }
-navi a
+.l
 {
 	text-decoration:none;
 	color: white;

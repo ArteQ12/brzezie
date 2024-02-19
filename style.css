@@ -53,8 +53,13 @@ h1
 	border-radius: 15px;
 	text-align: justify;
 }
-a
+navi a
 {
 	text-decoration:none;
 	color: white;
+}
+a
+{
+	text-decoration:none;
+	color: black;
 }

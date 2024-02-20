@@ -62,7 +62,7 @@ a
 a:hover
 {
 	font-weight: bold;
-	background-color: gray;
+	background-color: #adadad;
 	border-radius: 8px;
 	border: black 1px solid;
 }

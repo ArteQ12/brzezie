@@ -28,17 +28,6 @@ h1
 	font-size: 50px;
 	line-height: 100px;
 }
-#navi
-{
-	float: left;
-	background-image: url("tlo1.png");
-	color: white;
-	height: 400%;
-	width: 20%;
-	text-align: center;
-	font-size: 25px;
-	padding: 10px;
-}
 .slajd
 {
 	float: left;
@@ -58,7 +47,7 @@ h1
 {
 	background-image: url("tlo1.png");
 	height:5px;
-	width:500px;
+	width:800px;
 	margin-bottom:30px;
 	margin-top:30px;
 	margin-left:auto;
@@ -71,6 +60,19 @@ h1
 }
 a
 {
-	text-decoration:none;
+	text-decoration: ;
 	color: black;
 }
+/*
+#navi
+{
+	float: left;
+	background-image: url("tlo1.png");
+	color: white;
+	height: 400%;
+	width: 20%;
+	text-align: center;
+	font-size: 25px;
+	padding: 10px;
+}
+*/

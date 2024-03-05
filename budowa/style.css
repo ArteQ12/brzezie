@@ -23,7 +23,6 @@ h2
 h3
 {
 	color:#ff6600;
-	
 }
 .lista
 {
@@ -32,6 +31,7 @@ h3
 a.pom
 {
 	color: #ff6600;
+	text-decoration: none;
 }
 a.pom:hover
 {

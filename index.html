@@ -9,6 +9,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Glass+Antiqua&family=Raleway:wght@300&display=swap" rel="stylesheet">
 <title>Bartosz Gieda</title>
+<script>
+  function toggleDarkMode() {
+  document.body.classList.toggle("dark");
+}
+</script>
 </head>
 <body>
 <div id="name">
@@ -17,6 +22,7 @@
 <div class="slajd">
 <p>Projekty z zajęć</p>
 <div class="linia"></div>
+<button onclick="toggleDarkMode()">Zmień motyw</button>
 <ul>
   <li><a href="stare.html">Stare strony</a></li>
   <li><a href="szablony/3kolumny.html">3 kolumny</a></li>

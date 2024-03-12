@@ -5,6 +5,16 @@ body
 	font-family: 'Caveat', cursive;
 	font-family: 'Glass Antiqua', cursive;
 	font-family: 'Raleway', sans-serif;
+
+}
+@media (prefers-color-scheme: dark) 
+{
+	background-color: black;	
+}
+ 
+@media (prefers-color-scheme: light) 
+{
+	  background-color: white;
 }
 p
 {

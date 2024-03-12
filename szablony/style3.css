@@ -1,0 +1,72 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(30, 23, 71);
+    color: white;
+    font-family: "Kanit", sans-serif;
+}
+a
+{
+    text-decoration: none;
+    color:white;
+}
+#container
+{
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+#header
+{
+    background-color: rgb(44, 24, 160);
+    font-size: 60px;
+    text-align: center;
+}
+#nav
+{
+    
+    font-size: 30px;
+    width: auto;
+    height: 85px;
+    clear: both;
+}
+.block
+{
+    background-color: rgb(44, 24, 160);
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    width: 21%;
+    text-align: center;
+}
+#left
+{
+    float: left;
+    background-color: rgb(61, 62, 100);
+    width: 20%;
+    height: 800px;
+    font-size: 30px;
+    padding-left: 1%;
+}
+#main
+{
+    float: left;
+    background-color: rgb(30, 30, 31);
+    width:50%;
+    padding: 2%;
+    height: 752px;
+}
+#right
+{
+    float: left;
+    background-image: url(brzezie.jpg);
+    width: 25%;
+    height: 800px;
+}
+#footer
+{
+    clear: both;
+    text-align: center;
+    
+}

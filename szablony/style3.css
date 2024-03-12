@@ -17,6 +17,17 @@ a
     margin-left: auto;
     width: 100%;
 }
+#container2
+{
+    display: table;
+    width: 100%;
+}
+.container2 > *
+{
+    display: table-cell;
+    vertical-align: top;
+
+}
 #header
 {
     background-color: rgb(44, 24, 160);
@@ -42,27 +53,26 @@ a
 }
 #left
 {
-    float: left;
+    display: table-cell;
     background-color: rgb(61, 62, 100);
     width: 20%;
-    height: 800px;
     font-size: 30px;
     padding-left: 1%;
 }
 #main
 {
-    float: left;
+    display: table-cell;
     background-color: rgb(30, 30, 31);
-    width:50%;
+    width: 50%;
     padding: 2%;
-    height: 752px;
+    font-size: 20px;
+    text-align: justify;
 }
 #right
 {
-    float: left;
+    display: table-cell;
     background-image: url(brzezie.jpg);
     width: 25%;
-    height: 800px;
 }
 #footer
 {

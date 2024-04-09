@@ -1,47 +1,30 @@
 <!DOCTYPE HTML>
 <html lang="pl">
 <head>
-<>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="fallingtextrotator.css" />
-
+<link rel="stylesheet" type="text/css" href="fallingtextrotator.css">
 <link href='http://fonts.googleapis.com/css?family=Orbitron:400,700,900' rel='stylesheet' type='text/css'>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="jquery.lettering-0.6.1.min.js"></script>
-
-<script src="fallingtextrotator.js">
-
-/* =====================================
-	Falling Text Rotator- by JavaScript Kit (www.javascriptkit.com)
- Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
-===================================== */
-
-</script>
-
+<script src="fallingtextrotator.js"></script>
 <script>
-
-
 jQuery(function(){ // on DOM load
-
-	$('#headline').fallingtextrotator({
-		pause: 3000,
-		cycles: 2,
-		ontextchange:function(msgindex, msg, eachchar){
-			//console.log(msgindex, msg, eachchar)
-		}
-	})
-})
-
+    $('#headline').fallingtextrotator({
+        pause: 3000,
+        cycles: 2,
+        ontextchange: function(msgindex, msg, eachchar) {
+            //console.log(msgindex, msg, eachchar)
+        }
+    });
+});
 </script>
 </head>
 <body>
 <ul id="headline" class="fallingtextrotator" style="height:2em">
-<li>JavaScript Kit</li>
-<li>Bigger, Bolder</li>
-<li>And Badder</li>
-<li>Than even Rambo!</li>
+    <li>JavaScript Kit</li>
+    <li>Bigger, Bolder</li>
+    <li>And Badder</li>
+    <li>Than even Rambo!</li>
 </ul>
 </body>
 </html>

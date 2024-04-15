@@ -36,6 +36,7 @@ header
 footer
 {
     clear: both;
+    text-align: center;
 }
 /* i
 {
@@ -66,26 +67,26 @@ main
 {
     float: left;
 }
-ul
+nav > ul
 {
     padding: 0;
     margin: 0;
     background-color: #808080;
     min-width: 267px;
 }
-li
+nav > li
 {
     display: block;
     background-color: #707070;
     line-height: 3;
 }
-li > a
+nav > li > a
 {
     color: #ffffff;
     text-decoration: none;
     display: block;
 }
-li > a:hover
+nav > li > a:hover
 {
     animation: color 1s 0s forwards;
 }
@@ -102,11 +103,11 @@ li > a:hover
     height: 3px;
     position: static;
 }
-ul > li:hover > .emptyline > .line
+nav > ul > li:hover > .emptyline > .line
 {
     animation: line 1s 0s both;
 }
-ul > li > a
+nav > ul > li > a
 {
     margin-left: 15px;
 }

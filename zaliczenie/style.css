@@ -74,19 +74,19 @@ nav > ul
     background-color: #808080;
     min-width: 267px;
 }
-nav > li
+nav > ul > li
 {
     display: block;
     background-color: #707070;
     line-height: 3;
 }
-nav > li > a
+nav > ul > li > a
 {
     color: #ffffff;
     text-decoration: none;
     display: block;
 }
-nav > li > a:hover
+nav > ul > li > a:hover
 {
     animation: color 1s 0s forwards;
 }

@@ -2,31 +2,10 @@
 <html>
 <head>
 <title>Multimedia i interfejsy - HTML5 </title>
-<style>
-    #canvas1 {
-        position: absolute;
-        left: 0;
-        top: 0;
-    }
-    
-    #canvas2 {
-        position: absolute;
-        left: 0;
-        top: 350px; /* Adjust the top position as needed */
-    }
-</style>
 </head>
-<body onload="setup();">
-    <div>
-        <canvas id="canvas1" width="400" height="300">
-        <script src="sierpinskiTriangle.js"></script>
-        </canvas>
-    </div>
-    <div>
-        <canvas id="canvas2" width="163" height="772">
-        <script src="requestAnimFrame.js"></script>
-        <script src="wave1d.js"></script>
-        </canvas>
-    </div>
+<body onload = "setup();">
+ <canvas id="canvas" width="400" height="300"/>
+ <script src="sierpinskiTriangle.js"></script>
+ </canvas>
 </body>
 </html>

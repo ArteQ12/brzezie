@@ -1,0 +1,12 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Multimedia i interfejsy - HTML5 </title>
+</head>
+<body onload = "setup();">
+ <canvas id="canvas" width="163" height="772">
+ <script src="requestAnimFrame.js"></script>
+ <script src="wave1d.js"></script>
+ </canvas>
+</body>
+</html>

@@ -6,6 +6,9 @@
 <?php
 // Skrypt ten wypisze tekst, uŻywając funkcji "print"
 print("PHP");
+print("<br>")
+echo("PHP");
+
 ?>
 </body>
 </html>
